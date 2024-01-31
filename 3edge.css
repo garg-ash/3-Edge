@@ -643,3 +643,148 @@ i.fa-solid.fa-location-dot {
 {
     margin-top: 20px;
 }
+
+/* ------service page starts----- */
+.banner
+{
+    background-image: url(./Images/workspace-1280538_640.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.banner_content h1
+{
+    color: white;
+}
+.banner_content p
+{
+    color: white;
+}
+button
+{
+    background-color: #fd6600;
+    height: 40px;
+    width: 100px;
+    border-radius: 20%;
+    transition: width 2s;
+}
+button:hover
+{
+    background-color: blue;
+    width: 200px;
+}
+button a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+button a:hover{
+    color: white;
+}
+.digital_success_heading h2 span
+{
+    color: #fd6600;
+}
+.digital_success_content p
+{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.success_heading_box1
+{
+    height: 60px;
+    width: 98%;
+    background-color: #fd6600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.success_heading_box1 h5
+{
+    color: white;
+    padding-left: 30px;
+    font-weight: 200;
+}
+.success_content_box
+{
+    width: 98%;
+    height: 150px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success_content_box p
+{
+    padding: 0 30px;
+    font-size: 18px;
+}
+.success_heading_box2
+{
+    height: 60px;
+    width: 98%;
+    background-color: #3b3465;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.success_heading_box2 h5
+{
+    color: white;
+    padding-left: 30px;
+    font-weight: 200;
+}
+/*---------- why choose us section starts----------- */
+.choose h2
+{
+    text-align: center;
+    color: #fd6600;
+    margin-top: 3rem;
+    font-weight: 600;
+}
+.choose_box1
+{
+    height: 280px;
+    width: 400px;
+    background-color: #fd6600;
+    border-radius: 30px;
+}
+.choose_image
+{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin: auto;
+    padding-top: 10px;
+}
+.choose_image img
+{
+    height: 100%;
+    width: 100%;
+}
+.choose h4
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.choose p
+{
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+.choose_box2
+{
+    height: 280px;
+    width: 400px;
+    background-color: #3b3465;
+    border-radius: 30px;
+}
